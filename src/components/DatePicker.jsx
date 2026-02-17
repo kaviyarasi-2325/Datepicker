@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function DatePicker({ onSelect }) {
+function Datepicker({ onSelect }) {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
 
@@ -15,15 +15,20 @@ function DatePicker({ onSelect }) {
   };
 
   return (
-    <div>
+    <div className="date-box">
       <h3>Select Date & Time</h3>
-      <p>Weekdays: Mon Tue Wed Thu Fri Sat Sun</p>
+      <p className="week-text">Weekdays: Mon Tue Wed Thu Fri Sat Sun</p>
 
-      <input type="date" value={date} onChange={handleDate} />
+      <input type="date" value={date} onChange={handleDate} className="input-field"/>
       <br />
-      <input type="time" value={time} onChange={handleTime} />
+      <input type="time" value={time} onChange={handleTime} className="input-field" />
+      {date && time &&(
+        <p className="selected-text">
+          Selected: {date} {time}</p>
+      )}
     </div>
   );
 }
 
-export default DatePicker;
+
+export default Datepicker;
