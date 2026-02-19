@@ -12,11 +12,11 @@ body {
 
 .date-box {
   border: none;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 20px;
   border-radius: 10px;
   width: 270px;
-  background: white;
+  background: rgba(255, 255, 255, 0.993);
 }
 
 .week-text {
