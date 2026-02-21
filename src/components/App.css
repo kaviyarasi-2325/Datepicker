@@ -1,0 +1,73 @@
+/* Style.css */
+.meeting-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.meeting-title {
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.picker-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.custom-select {
+  padding: 12px 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.time-wrapper {
+  margin-bottom: 25px;
+}
+
+.time-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  background-color: #f9f9f9;
+}
+
+.ok-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ok-btn:hover {
+  background-color: #4338ca;
+}
+
+.result-box {
+  margin-top: 25px;
+  padding: 18px;
+  background-color: #f0fdf4;
+  border-radius: 10px;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  font-size: 16px;
+}
