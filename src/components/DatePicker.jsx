@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // CSS ஃபைலை இங்கே Import செய்கிறோம்
+import './App.css'; 
 
 export default function MeetingPicker() {
   const [day, setDay] = useState('');
